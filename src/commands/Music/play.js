@@ -73,7 +73,7 @@ module.exports = class Play extends Command {
           embeds: [
             embed
               .setColor(this.client.color.red)
-              .setDescription("There were no results found."),
+              .setDescription("We currently support Spotify URL and Soundcloud URL."),
           ],
         });
         break;
