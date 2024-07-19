@@ -31,7 +31,7 @@ module.exports = class Command {
         : ["SendMessages", "ViewChannel", "EmbedLinks"],
       user: options.permissions ? options.permissions.user || [] : [],
     };
-    this.slashCommand = options.slashCommand || false;
+    this.slashCommand = false;
     this.options = options.options || [];
     this.category = options.category || "general";
   }
