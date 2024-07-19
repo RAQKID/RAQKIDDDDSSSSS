@@ -12,8 +12,8 @@ module.exports = {
         yellow: 0xffff00,
         main: 0x2f3136,
     },
-    keepAlive: parseBoolean(process.env.KEEP_ALIVE) || false, // for https://replit.com keep alive bot 24/7
-    searchEngine: process.env.SEARCH_ENGINE || "ytsearch", // ytsearch = youtube, scsearch = soundcloud, spsearch = spotify,
+    keepAlive: parseBoolean(process.env.KEEP_ALIVE) || true, // for https://replit.com keep alive bot 24/7
+    searchEngine: process.env.SEARCH_ENGINE || "ytsearch, scsearch, ytmsearch", // ytsearch = youtube, scsearch = soundcloud, spsearch = spotify,
     maxPlaylistSize: parseInt(process.env.MAX_PLAYLIST_SIZE) || 100,
     botStatus: process.env.BOT_STATUS || 'online', // online, idle, dnd, invisible
     botActivity: process.env.BOT_ACTIVITY || 'WaveMusic', // set the bot activity
