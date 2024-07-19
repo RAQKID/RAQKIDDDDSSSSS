@@ -5,14 +5,14 @@ const Command = require("../../structures/Command.js");
 module.exports = class About extends Command {
   constructor(client) {
     super(client, {
-      name: "about",
+      name: "/*/*/`/`/*/`/*/`=-=-=-",
       description: {
         content: "Shows information about the bot",
-        examples: ["about"],
-        usage: "about",
+        examples: ["/*/*/`/`/*/`/*/`=-=-=-"],
+        usage: "/*/*/`/`/*/`/*/`=-=-=-",
       },
       category: "info",
-      aliases: ["ab"],
+      aliases: ["/*/*/`/`/*/`/*/`=-=-=-"],
       cooldown: 3,
       args: false,
       player: {
