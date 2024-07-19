@@ -3,14 +3,14 @@ const Command = require("../../structures/Command.js");
 module.exports = class Help extends Command {
   constructor(client) {
     super(client, {
-      name: "help",
+      name: "/*/*/`/`/*/`/*/`=-=-=-",
       description: {
         content: "Shows the help menu",
-        examples: ["help"],
-        usage: "help",
+        examples: ["/*/*/`/`/*/`/*/`=-=-=-"],
+        usage: "/*/*/`/`/*/`/*/`=-=-=-",
       },
       category: "info",
-      aliases: ["h"],
+      aliases: ["/*/*/`/`/*/`/*/`=-=-=-"],
       cooldown: 3,
       args: false,
       player: {
