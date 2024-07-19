@@ -14,11 +14,11 @@ module.exports = {
     },
     keepAlive: parseBoolean(process.env.KEEP_ALIVE) || true, // for https://replit.com keep alive bot 24/7
     searchEngine: process.env.SEARCH_ENGINE || "scsearch, spsearch", // ytsearch = youtube, scsearch = soundcloud, spsearch = spotify,
-    maxPlaylistSize: parseInt(process.env.MAX_PLAYLIST_SIZE) || 100,
-    botStatus: process.env.BOT_STATUS || 'online', // online, idle, dnd, invisible
-    botActivity: process.env.BOT_ACTIVITY || 'WaveMusic', // set the bot activity
-    botActivityType: parseInt(process.env.BOT_ACTIVITY_TYPE || '2'), // 0 to 5 get more info - https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types
-    maxQueueSize: parseInt(process.env.MAX_QUEUE_SIZE) || 100,
+    maxPlaylistSize: parseInt(process.env.MAX_PLAYLIST_SIZE) || 150,
+    botStatus: process.env.BOT_STATUS || '', // online, idle, dnd, invisible
+    botActivity: process.env.BOT_ACTIVITY || '', // set the bot activity
+    botActivityType: parseInt(process.env.BOT_ACTIVITY_TYPE || '0'), // 0 to 5 get more info - https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types
+    maxQueueSize: parseInt(process.env.MAX_QUEUE_SIZE) || 350,
     owners: JSON.parse(process.env.OWNER_IDS || '[]'),
     clientId: process.env.CLIENT_ID,
     guildId: process.env.GUILD_ID,
