@@ -13,7 +13,7 @@ module.exports = {
         main: 0x2f3136,
     },
     keepAlive: parseBoolean(process.env.KEEP_ALIVE) || true, // for https://replit.com keep alive bot 24/7
-    searchEngine: process.env.SEARCH_ENGINE || "scsearch, spsearch", // ytsearch = youtube, scsearch = soundcloud, spsearch = spotify,
+    searchEngine: process.env.SEARCH_ENGINE || "ytmsearch", // ytsearch = youtube, scsearch = soundcloud, spsearch = spotify,
     maxPlaylistSize: parseInt(process.env.MAX_PLAYLIST_SIZE) || 150,
     botStatus: process.env.BOT_STATUS || '', // online, idle, dnd, invisible
     botActivity: process.env.BOT_ACTIVITY || '', // set the bot activity
@@ -24,14 +24,14 @@ module.exports = {
     guildId: process.env.GUILD_ID,
     logChannelId: process.env.LOG_CHANNEL_ID || '',
     links: {
-        img: process.env.IMG_LINK || 'https://i.imgur.com/ud3EWNh.jpg',
+        img: process.env.IMG_LINK || 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
     },
     icons: {
-        youtube: 'https://cdn.discordapp.com/attachments/852316384289619968/1142853793822822551/3670147.png',
-        spotify: 'https://media.discordapp.net/attachments/963097935820750878/1054333449252655104/spotify.png',
-        soundcloud: 'https://media.discordapp.net/attachments/963097935820750878/1054333449638526986/145809.png',
-        applemusic: 'https://media.discordapp.net/attachments/963097935820750878/1054333450368340018/apple-music-icon.png',
-        deezer: 'https://media.discordapp.net/attachments/963097935820750878/1054333450024394802/5968803.png',
+        youtube: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
+        spotify: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
+        soundcloud: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
+        applemusic: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
+        deezer: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
     },
     production: parseBoolean(process.env.PRODUCTION) || true,
     lavalink: [
