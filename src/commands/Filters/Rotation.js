@@ -24,7 +24,7 @@ module.exports = class Rotation extends Command {
         client: ["SendMessages", "ViewChannel", "EmbedLinks"],
         user: ["ManageGuild"],
       },
-      slashCommand: true,
+      slashCommand: false,
       options: [],
     });
   }
