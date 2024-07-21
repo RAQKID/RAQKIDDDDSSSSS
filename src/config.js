@@ -27,11 +27,11 @@ module.exports = {
         img: process.env.IMG_LINK || 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
     },
     icons: {
-        youtube: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
-        spotify: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
-        soundcloud: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
-        applemusic: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
-        deezer: 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
+        youtube: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA2MGg2djh1eDFnaGRjMGdjejR1d3J1bzBwaWg2d28yNGV4cXhvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr6DkcAYBzqVi/giphy.gif',
+        spotify: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA2MGg2djh1eDFnaGRjMGdjejR1d3J1bzBwaWg2d28yNGV4cXhvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr6DkcAYBzqVi/giphy.gif',
+        soundcloud: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA2MGg2djh1eDFnaGRjMGdjejR1d3J1bzBwaWg2d28yNGV4cXhvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr6DkcAYBzqVi/giphy.gif',
+        applemusic: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA2MGg2djh1eDFnaGRjMGdjejR1d3J1bzBwaWg2d28yNGV4cXhvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr6DkcAYBzqVi/giphy.gif',
+        deezer: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA2MGg2djh1eDFnaGRjMGdjejR1d3J1bzBwaWg2d28yNGV4cXhvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr6DkcAYBzqVi/giphy.gif',
     },
     production: parseBoolean(process.env.PRODUCTION) || true,
     lavalink: [
