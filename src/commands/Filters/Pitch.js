@@ -26,7 +26,7 @@ module.exports = class Pitch extends Command {
         client: ["SendMessages", "ViewChannel", "EmbedLinks"],
         user: ["ManageGuild"],
       },
-      slashCommand: true,
+      slashCommand: false,
       options: [
         {
           name: "number",
