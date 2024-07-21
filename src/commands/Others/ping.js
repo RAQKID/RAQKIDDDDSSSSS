@@ -24,7 +24,7 @@ module.exports = class Ping extends Command {
         client: ["SendMessages", "ViewChannel", "EmbedLinks"],
         user: [],
       },
-      slashCommand: true,
+      slashCommand: false,
       options: [],
     });
   }
