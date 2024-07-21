@@ -24,7 +24,7 @@ module.exports = {
     guildId: process.env.GUILD_ID,
     logChannelId: process.env.LOG_CHANNEL_ID || '',
     links: {
-        img: process.env.IMG_LINK || 'https://i.ibb.co/wz2rvDv/istockphoto-1256174227-612x612.jpg',
+        img: process.env.IMG_LINK || 'https://hips.hearstapps.com/hmg-prod/images/nostalgia-culture-1663162762.jpg?crop=1.00xw:0.564xh;0,0.253xh&resize=2048:*',
     },
     icons: {
         youtube: 'https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTA2MGg2djh1eDFnaGRjMGdjejR1d3J1bzBwaWg2d28yNGV4cXhvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yr6DkcAYBzqVi/giphy.gif',
