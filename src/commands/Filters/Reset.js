@@ -24,7 +24,7 @@ module.exports = class Reset extends Command {
         client: ["SendMessages", "ViewChannel", "EmbedLinks"],
         user: ["ManageGuild"],
       },
-      slashCommand: true,
+      slashCommand: false,
       options: [],
     });
   }
