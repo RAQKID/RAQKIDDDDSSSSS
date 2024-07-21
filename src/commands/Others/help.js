@@ -100,7 +100,7 @@ module.exports = class Help extends Command {
         .map((perm) => `\`${perm}\``)
         .join(", ")}
 **Developer Only:** ${command.permissions.dev ? "Yes" : "No"}
-**Slash Command:** ${command.slashCommand ? "Yes" : "No"}
+**Slash Command:** No
 **Args:** ${command.args ? "Yes" : "No"}
 **Player:** ${command.player.active ? "Yes" : "No"}
 **DJ:** ${command.player.dj ? "Yes" : "No"}
